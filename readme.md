@@ -2,7 +2,8 @@
 # DC-TTS
 The pytorch implementation of papar [Efficiently Trainable Text-to-Speech System Based on Deep Convolutional Networks with Guided Attention](https://arxiv.org/abs/1710.08969).
 
-Thanks for [Kyubyong/dc_tts](https://github.com/Kyubyong/dc_tts), which helped me a lot to overcome some difficulties.
+based on [chaiyujin/dctts-pytorch]((https://github.com/chaiyujin/dctts-pytorch), [Kyubyong/dc_tts](https://github.com/Kyubyong/dc_tts)
+
 
 # setting
 
