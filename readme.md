@@ -1,3 +1,4 @@
+## 190507_DCTTS 구현 및 수정, 파이토치 
 # DC-TTS
 The pytorch implementation of papar [Efficiently Trainable Text-to-Speech System Based on Deep Convolutional Networks with Guided Attention](https://arxiv.org/abs/1710.08969).
 
