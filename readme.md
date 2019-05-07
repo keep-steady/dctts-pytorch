@@ -11,6 +11,22 @@ Thanks for [Kyubyong/dc_tts](https://github.com/Kyubyong/dc_tts), which helped m
 # Dataset
 - [The LJ Speech Dataset](https://keithito.com/LJ-Speech-Dataset/). A public domain speech dataset consisting of 13,100 short audio clips of a single female speaker.
 
+- Prepare the dataset(LjSpeech dataset)
+    24 hour(1~10sec), 13100 audio, woman single speaker read book, https://keithito.com/LJ-Speech-Dataset/
+	wget http://data.keithito.com/data/speech/LJSpeech-1.0.tar.bz2
+    tar xvf LJSpeech-1.0.tar.bz2
+- 형식
+	- datasets  - LJSpeech-1.1 
+	    - wavs  (목소리 파일)
+		  - LJ001-0002, ...
+		- metadata.csv
+		    - 구분자 '|', LJ001-0006|And it is worth mention in passing that
+				
+- GuidedAttention 구현부분이 이상하다. 왜 그냥 1, 0으로만 만들고 섞진않지??
+	- guide = np.ones((b, r, c), dtype=np.float32),   (text_length, mel_length)
+	- mask = np.zeros((b, r, c), dtype=np.float32),   (text_length, mel_length)
+
+
 # Train
 I have tuned hyper parameters and trained a model with The LJ Speech Dataset. The hyper parameters may not be the best and are slightly different with those used in original paper.
 
