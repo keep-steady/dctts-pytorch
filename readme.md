@@ -44,6 +44,7 @@ To train a model yourself with The LJ Speech Dataset:
     ```
     - Text2Mel Model saved at logdir/text2mel/pkg/trained.pkg
     - less than 10 minutes
+    - numpy==1.16 이상버전은 에러, 1.15.3 version 추천
     
 3. Train Text2Mel network, you can change the device to train text2mel in `pkg/hyper.py`
     ```
