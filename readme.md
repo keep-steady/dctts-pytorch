@@ -3,6 +3,10 @@ The pytorch implementation of papar [Efficiently Trainable Text-to-Speech System
 
 Thanks for [Kyubyong/dc_tts](https://github.com/Kyubyong/dc_tts), which helped me a lot to overcome some difficulties.
 
+# setting
+    ```
+    pip install -r requirements.txt
+    ```
 # Dataset
 - [The LJ Speech Dataset](https://keithito.com/LJ-Speech-Dataset/). A public domain speech dataset consisting of 13,100 short audio clips of a single female speaker.
 
