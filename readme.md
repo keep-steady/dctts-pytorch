@@ -13,8 +13,9 @@ Thanks for [Kyubyong/dc_tts](https://github.com/Kyubyong/dc_tts), which helped m
 
 - Prepare the dataset(LjSpeech dataset)
     24 hour(1~10sec), 13100 audio, woman single speaker read book, https://keithito.com/LJ-Speech-Dataset/
-    	```
+	```
 	wget http://data.keithito.com/data/speech/LJSpeech-1.0.tar.bz2
+	```
 	tar xvf LJSpeech-1.0.tar.bz2
 	```
 - 형식
