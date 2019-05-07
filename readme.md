@@ -42,17 +42,21 @@ To train a model yourself with The LJ Speech Dataset:
     python main.py --action preprocess
     ```
     - Text2Mel Model saved at logdir/text2mel/pkg/trained.pkg
+    - less than 10 minutes
+    
 3. Train Text2Mel network, you can change the device to train text2mel in `pkg/hyper.py`
     ```
     python main.py --action train --module Text2Mel
     ```
     - SSRN Model saved at logdir/superres/pkg/trained.pkg
+    
 4. Train SSRN network, also, it's possible to change the training device
     ```
     python main.py --action train --module SuperRes
     ```
     - sentences.txt 의 문장들 생성
     - model 2개를 load 해서 수행
+    
 # Samples
 Some synthesized samples are contained in directory `synthesis`. The according sentences are listed in `sentences.txt`. The pre-trained model for Text2Mel and SuperRes (auto-saved at `logdir/text2mel/pkg/trained.pkg` and `logdir/superres/pkg/trained.pkg` in training phase) will be loaded when synthesizing.
 
