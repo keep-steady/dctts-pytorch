@@ -16,6 +16,7 @@ Thanks for [Kyubyong/dc_tts](https://github.com/Kyubyong/dc_tts), which helped m
 	```
 	wget http://data.keithito.com/data/speech/LJSpeech-1.0.tar.bz2
 	```
+	```
 	tar xvf LJSpeech-1.0.tar.bz2
 	```
 - 형식
